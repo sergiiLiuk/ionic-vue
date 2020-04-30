@@ -1,0 +1,9 @@
+[
+  {
+  "id": "1",
+  "url": "https://cloudlocal.nanolink.com",
+  "name": "cloudlocal.nanolink.com",
+  "gateservice": "test.nanolink.com",
+  "gateport": "1883"
+  }
+]
