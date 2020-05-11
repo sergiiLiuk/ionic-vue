@@ -31,6 +31,8 @@ export default {
 </script>
 <style>
 :root {
+  --ion-safe-area-top: 20px;
+  --ion-safe-area-bottom: 22px;
   --ion-color-primary: #6aa641;
   --ion-color-success: #6aa641;
   --ion-color-danger: #b71c1c;

@@ -8,6 +8,6 @@
         <ion-title>Search</ion-title>
       </ion-toolbar>
     </ion-header>
-    <ion-content class="ion-padding">Hello </ion-content>
+    <ion-content class="ion-padding">Search</ion-content>
   </div>
 </template>

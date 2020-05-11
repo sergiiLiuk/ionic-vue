@@ -9,7 +9,7 @@ import { getField, updateField } from "vuex-map-fields";
 import users from "@/store/users";
 // import settings from "@/store/settings";
 import assets from "@/store/assets";
-// import groups from "@/store/groups";
+import groups from "@/store/groups";
 import locations from "@/store/locations";
 // import categories from "@/store/categories";
 // import dashboard from "@/store/dashboard";
@@ -79,9 +79,9 @@ const vuexLocalStorage = new VuexPersist({
     // reports: {
     //   reports: state.reports.reports,
     // },
-    // groups: {
-    //   groups: state.groups.groups,
-    // },
+    groups: {
+      groups: state.groups.groups,
+    },
     // jobs: {
     //   jobs: state.jobs.jobs,
     // },
@@ -124,7 +124,7 @@ export default new Vuex.Store({
     // groupSettings,
     users,
     assets,
-    // groups,
+    groups,
     locations,
     // categories,
     // dashboard,

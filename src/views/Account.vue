@@ -96,7 +96,6 @@ export default {
   },
   watch: {
     lang(lang) {
-      console.log("ae");
       this.$store.dispatch("getLangData", lang);
     },
   },

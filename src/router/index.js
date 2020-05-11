@@ -4,7 +4,9 @@ import { IonicVueRouter } from "@ionic/vue";
 import hasAccess from "@/imports/hasAccess";
 import { EventBus } from "@/mixins/event-bus";
 
+import admin from "@/router/admin";
 import users from "@/router/users";
+import overview from "@/router/overview";
 
 const Dashboard = () => import("@/views/Dashboard");
 const Map = () => import("@/views/Map");
@@ -20,6 +22,8 @@ Vue.use(IonicVueRouter);
 
 const routes = [
   ...users,
+  ...overview,
+  ...admin,
   {
     path: "/",
     name: "Dashboard",

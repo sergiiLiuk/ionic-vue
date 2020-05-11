@@ -8,13 +8,13 @@
         <ion-title>Dashboard</ion-title>
       </ion-toolbar>
     </ion-header>
-    <ion-content class="ion-padding">Hello </ion-content>
+    <ion-content class="ion-padding">Dashboard</ion-content>
   </div>
 </template>
 
 <script>
 export default {
   name: "Dashboard",
-  components: {},
+  components: {}
 };
 </script>
