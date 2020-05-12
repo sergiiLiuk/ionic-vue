@@ -1,6 +1,6 @@
 const Assets = () => import("@/views/overview/Assets");
 const Locations = () => import("@/views/overview/Locations");
-const Log = () => import("@/views/overview/Log");
+const Log = () => import("@/views/overview/log/Log");
 const Users = () => import("@/views/overview/Users");
 
 export default [

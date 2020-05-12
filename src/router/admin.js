@@ -5,7 +5,7 @@ const Groups = () => import("@/views/admin/Groups");
 const Reports = () => import("@/views/admin/Reports");
 const Service = () => import("@/views/admin/Service");
 const Warnings = () => import("@/views/admin/Warnings");
-const Users = () => import("@/views/admin/Users");
+const UserList = () => import("@/views/admin/users/UserList");
 
 export default [
   {
@@ -144,7 +144,7 @@ export default [
   {
     path: "/admin/users",
     name: "AdminUsers",
-    component: Users,
+    component: UserList,
     meta: {
       breadcrumb: [
         {

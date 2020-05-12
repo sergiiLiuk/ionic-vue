@@ -20,7 +20,7 @@ import locations from "@/store/locations";
 // import search from "@/store/search";
 // import statistics from "@/store/statistics";
 // import documents from "@/store/documents";
-// import log from "@/store/log";
+import log from "@/store/log";
 // import jobs from "@/store/jobs";
 // import trackers from "@/store/trackers";
 // import beacons from "@/store/beacons";
@@ -135,7 +135,7 @@ export default new Vuex.Store({
     // search,
     // statistics,
     // documents,
-    // log,
+    log,
     // jobs,
     // trackers,
     // beacons,
